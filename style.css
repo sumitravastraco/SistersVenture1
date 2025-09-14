@@ -3404,6 +3404,50 @@ footer.footer .footer-right-div a:hover {
     }
 }
 
+/* Mobile-optimized category list */
+.categories-list {
+    padding: 5px 0;
+}
+.categories-list-nav {
+    display: flex;
+    flex-wrap: wrap;      
+    gap: 5px;             
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.categories-list-nav li {
+    flex: 0 0 auto;
+}
+.categories-list-nav li a {
+    display: block;
+    padding: 4px 8px;     
+    font-size: 11px;      
+    border-radius: 12px;
+    background: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+.categories-list-nav li.active-category a,
+.categories-list-nav li a:hover {
+    background: #ff6b6b;
+    color: #fff;
+}
+
+/* Optional: adjust for larger screens (tablet/desktop) */
+@media (min-width: 769px) {
+    .categories-list-nav li a {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+}
+
+
+
+
 
 
 
