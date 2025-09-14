@@ -3380,6 +3380,31 @@ footer.footer .footer-right-div a:hover {
     height: 40px;
   }
 }
+.brand-name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    font-weight: normal;
+    color: #fff; /* same as button text */
+    background: #000; /* solid black background */
+    text-align: center;
+    padding: 8px 20px;
+    line-height: 1.2;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/* Responsive for mobile */
+@media (max-width: 480px) {
+    .brand-name {
+        font-size: 22px;
+        padding: 6px 15px;
+        margin-bottom: 10px;
+    }
+}
+
+
 
 
 /*# sourceMappingURL=style.css.map */
