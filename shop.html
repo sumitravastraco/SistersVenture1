@@ -136,28 +136,30 @@
     color: #000;
     text-align: center;
     padding: 15px 10px;
-    margin-top: 70px; /* space for fixed header */
-    font-size: 18px;
-    font-weight: 700;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    margin: 0; /* remove previous margin */
     position: relative;
     overflow: hidden;
     z-index: 9998;
     animation: pulse 1.5s infinite;
+    top: 70px; /* space below fixed header */
 ">
-    🎉 <span style="color:#fff;">Festival Offer!</span> Get an additional 
-    <span style="color:#e60000; font-size:20px;">25% OFF</span> on every product over the already discounted price! Hurry, limited time only! 🎉
+    ✨ Extra <span style="color:#e60000; font-size:20px;">25% OFF</span> on all products this festive season! ✨
 </div>
 
-<!-- Add animation -->
 <style>
 @keyframes pulse {
     0% { transform: scale(1); }
     50% { transform: scale(1.02); }
     100% { transform: scale(1); }
 }
+
+/* Adjust product list spacing */
+ul.products {
+    margin-top: 5px; /* minimal gap below banner */
+}
 </style>
+
+
 
 
 
